@@ -21,15 +21,17 @@ Unplanned bearing failure is one of the most common causes of industrial machine
 
 **Algorithm**
 - Luenberger observer: estimates internal system states from available sensor measurements, grounded in the physical dynamics of the monitored machine
-- Physics Informed Random Forest: a fault classification model built on physically meaningful features rather than raw signal statistics alone, trained and validated on the CWRU bearing fault dataset
+- Physics Informed Random Forest: a fault classification approach built on physically meaningful features rather than raw signal statistics alone
 
 ## Results
+
+As an early benchmark, a Physics Informed Random Forest model was tested against the public CWRU Bearing Dataset to validate the overall modeling approach before building the full pipeline:
 
 | Model | Dataset | Accuracy |
 |-------|---------|----------|
 | Physics Informed Random Forest | CWRU Bearing Dataset (benchmark) | 98.5% |
 
-The pipeline was first built and validated against the CWRU dataset, a standard public benchmark for bearing fault diagnosis, before integration with live ADXL355 sensor data.
+This is a preliminary result on public benchmark data, not the project's final output. The full pipeline, including live ADXL355 sensor integration, is still in progress.
 
 ## Repository Structure
 
@@ -42,17 +44,15 @@ The pipeline was first built and validated against the CWRU dataset, a standard 
 
 ## Status
 
-- [x] RF fault classification pipeline built and validated on CWRU dataset (98.5% accuracy)
 - [x] Luenberger observer designed
+- [x] Early benchmark test on CWRU dataset (98.5% accuracy)
+- [ ] Full RF pipeline built for live sensor data
 - [ ] Full integration with live ADXL355 sensor data
 - [ ] Field validation on UnipakNile production equipment
 
 ## Team
 
 Farah Ahmed Ibrahim, Mechatronics Engineering, MSA University
-
 Jana Saleh, graduation project partner
-
-Supervised by Dr. Mohammed Ali Abdelnaby
-
+Supervised by Dr. Mohamed Ali Abdelnaby
 Industrial partner: UnipakNile (Eng. Vincent Kassis, Eng. Antoine Zeidan)
