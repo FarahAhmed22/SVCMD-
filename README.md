@@ -53,6 +53,9 @@ This is a preliminary result on public benchmark data, not the project's final o
 ## Team
 
 Farah Ahmed Ibrahim, Mechatronics Engineering, MSA University
+
 Jana Saleh, graduation project partner
+
 Supervised by Dr. Mohamed Ali Abdelnaby
+
 Industrial partner: UnipakNile (Eng. Vincent Kassis, Eng. Antoine Zeidan)
