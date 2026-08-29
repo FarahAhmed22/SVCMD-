@@ -1,10 +1,10 @@
-# SVCMD: ESP32-S3 Based Vibration Monitoring System Using a Luenberger Observer and Physics-Informed ML
+# SVCMD: ESP32 S3 Based Vibration Monitoring System Using a Luenberger Observer and Physics-Informed ML
 
 A graduation project on an embedded condition monitoring device that detects bearing faults in industrial machinery by combining a physics based state observer with a physics informed machine learning model.
 
 ## Overview
 
-SVCMD (Smart Vibration Based Condition Monitoring Device) is an ESP32-S3 based system built to catch early stage bearing faults from vibration data before they turn into costly unplanned downtime. It combines a Luenberger observer for physics based state estimation with a Physics Informed Random Forest classifier, aiming for something more robust than either a purely data driven or purely physics based approach on its own.
+SVCMD (Smart Vibration Based Condition Monitoring Device) is an ESP32 S3 based system built to catch early stage bearing faults from vibration data before they turn into costly unplanned downtime. It combines a Luenberger observer for physics based state estimation with a Physics Informed Random Forest classifier, aiming for something more robust than either a purely data driven or purely physics based approach on its own.
 
 The project was developed in partnership with UnipakNile, an industrial packaging manufacturer, so the work is grounded in a real maintenance use case rather than a purely academic one.
 
@@ -15,7 +15,7 @@ Unplanned bearing failure is one of the most common causes of industrial machine
 ## Technical Approach
 
 **Hardware**
-- ESP32-S3 microcontroller
+- ESP32 S3 microcontroller
 - ADXL355 accelerometer for vibration sensing
 - I2C/SPI sensor interfacing
 
@@ -36,7 +36,7 @@ This is a preliminary result on public benchmark data, not the project's final o
 ## Repository Structure
 
 ```
-/firmware   ESP32-S3 embedded code
+/firmware   ESP32 S3 embedded code
 /docs       technical report, Luenberger observer design, similitude analysis
 /data       CWRU dataset references, sample sensor readings
 /images     hardware photos, circuit diagrams, result plots
