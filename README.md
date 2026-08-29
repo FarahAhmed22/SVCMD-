@@ -50,6 +50,9 @@ The pipeline was first built and validated against the CWRU dataset, a standard 
 ## Team
 
 Farah Ahmed Ibrahim, Mechatronics Engineering, MSA University
+
 Jana Saleh, graduation project partner
+
 Supervised by Dr. Mohammed Ali Abdelnaby
+
 Industrial partner: UnipakNile (Eng. Vincent Kassis, Eng. Antoine Zeidan)
